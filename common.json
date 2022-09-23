@@ -1,0 +1,54 @@
+{
+  "userID": "string",
+  "walletAddress": "string",
+  "transactonType": "ENUM[ON_RAMPING_CARD,ON_RAMPING_BANK,OFF_RAMPING_BANK]",
+  "transactionStatus": "ENUM[INITIATED,PENDING,FAILED,SUCCESS]",
+  "userDetails": {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "dateOfBirth": "",
+    "legalName": ""
+  },
+  "residenceDetails": {
+    "address": "",
+    "city": "",
+    "state": "",
+    "postalcode": "",
+    "country": ""
+  },
+  "amountDetails": {
+    "sourcecurrency": "",
+    "sourceAmount": "",
+    "destCurrency": "",
+    "dest": ""
+  },
+  "paymentDetails": {
+    "accountNumber": "",
+    "routingNumber": "",
+    "accountType": "",
+    "notifyUrl": "",
+    "recipientAddress": "",
+    "paymentMethodType": "",
+    "paymentType": "",
+    "beneficiaryType": "",
+    "paymentMethod": "",
+    "debit_card_last4_digit": "",
+    "ipAddress": ""
+  },
+  "trackingDetails": {
+    "wyreuserID": "",
+    "paymentMethod": "",
+    "transferID": "",
+    "accountID": "",
+    "reservationID": "",
+    "walletOrderID": ""
+  },
+  "fees": {
+    "matic_exchange_rate": "",
+    "transaction_fees": "",
+    "network_fees": "",
+    "purchase_total": ""
+  }
+}
